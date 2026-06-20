@@ -1,0 +1,13 @@
+a=str(input("请输入姓名"))
+b=int(input("请输入年龄"))
+c=int(input("请输入成绩"))
+h=str(input("请输入姓名"))
+i=int(input("请输入年龄"))
+j=int(input("请输入成绩"))
+s1={"姓名1": a,"年龄1": b, "成绩1": c}
+s2={"姓名2":h,"年龄2": i, "成绩2":j}
+l=[s1,s2]
+for key1 in l[s1]:
+    print(f"{key1}:{s1[key1]}")
+for key2 in l[s2]:
+    print(f"{key2}:{s2[key2]}")
